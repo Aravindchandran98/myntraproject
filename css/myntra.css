@@ -1,0 +1,118 @@
+body{
+    font-family: 'Catamaran',sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+#headerBlock .container{
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    box-shadow:1px 1px 10px 1px grey;
+    /* wrapper for div's(logo and search)*/
+}
+.logoBlock{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.searchBlock{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.search{
+    width: 60%;   
+}
+.rightMenu{
+    width: 40%;
+}
+.leftMenu{
+    width: 85%;
+}
+.logo{
+    width: 10%;
+    padding: 10px ;
+    margin-left: 40px;
+}
+.logo img{
+    width: 60px;
+    height: 60px;
+}
+.leftul, 
+.rightUl{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+.leftul li{
+    flex: initial;
+}
+.rightUl li a{
+    margin-left: 17px;
+}
+.leftul li a,.rightUl li a{
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
+.search input{
+    padding: 12px 50px;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    border: none;
+    margin-left: 26px;
+    width: 98%;
+}
+.searchiconParent{
+    position: relative;   
+}
+.fa-search{
+    color: #706b6be8;
+    position: absolute;
+    top: 6px;
+    left: 39px;
+}
+.profileiconParent{
+    position: relative;
+    left: 46px;
+    top: 10px;
+}   
+.bookmarkiconParent{
+    position: relative;
+    left: 51px;
+    top: 10px;
+}
+.bagiconParent{
+    position: relative;
+    left: 40px;
+    top: 10px;
+}
+.rightUl li a{
+    font-size: 14px;
+    text-transform: lowercase;
+}
+.leftul li .men:hover{
+    border-bottom: 3px solid orange;
+}
+.leftul li .women:hover{
+    border-bottom: 3px solid pink;
+}
+.leftul li .kids:hover{
+    border-bottom: 3px solid blue;
+}
+.leftul li .home:hover{
+    border-bottom: 3px solid blue;
+}
+.leftul li .essentials:hover{
+    border-bottom: 3px solid blue;
+}
+.rightul li a:hover{
+    border-bottom: 3000px solid blue;
+}
